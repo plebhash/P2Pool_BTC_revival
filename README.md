@@ -19,6 +19,10 @@ it automates the deployment of:
 - [`P2Pool v17.0`](https://github.com/p2pool/p2pool/releases/tag/17.0)
 - [`bitcoin core v0.13.1`](https://bitcoincore.org/bin/bitcoin-core-0.13.1)
 
+⚠️ note: this deployment can only mine pre-taproot blocks, which means its usage on mainnet is not economically rational (since potentially mined blocks would be rejected from most nodes).
+
+⚠️ note: this deployment is useful for research purposes, not real economically rational mining.
+
 # prerequisites
 
 - `x86-64` system
